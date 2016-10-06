@@ -67,6 +67,7 @@
             this.btnActions.TabIndex = 3;
             this.btnActions.Text = "Выполнить";
             this.btnActions.UseVisualStyleBackColor = true;
+            this.btnActions.Click += new System.EventHandler(this.btnActions_Click);
             // 
             // rtbHistory
             // 
