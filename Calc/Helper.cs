@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -33,6 +34,12 @@ namespace Calc
         public double Step(double x, double y)
         {
             return Math.Pow(x, y);
+        }
+
+        public MethodInfo[] metods()
+        {
+            var methods = GetType().GetMethods(BindingFlags.DeclaredOnly | BindingFlags.Instance | BindingFlags.Public);
+            return methods;
         }
     }
 }
