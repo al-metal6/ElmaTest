@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-    class Helper
+    public class Helper
     {
         public double Sum(double x, double y)
         {
