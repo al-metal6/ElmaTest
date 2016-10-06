@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElmaTest", "ElmaTest\ElmaTest.csproj", "{333E4071-0683-4FC9-A860-B8A8F13FE84B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forma", "Forma", "{C3D6DD14-AB50-4756-8AAE-FD2BC505A53E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{333E4071-0683-4FC9-A860-B8A8F13FE84B} = {C3D6DD14-AB50-4756-8AAE-FD2BC505A53E}
 	EndGlobalSection
 EndGlobal
